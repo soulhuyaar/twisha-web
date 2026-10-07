@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/team",
+      "destination": "/api/team.json"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
